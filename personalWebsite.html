@@ -7,30 +7,60 @@
     <style>
         .container{
             display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            
+        }
+
+        .imageContainer{
+            text-align: start;
         }
 
         #myImage{
             border-radius: 50%;
             width: 70px;
+            margin-left: 15px;
+            margin-top: 15px;
         }
+
+        .information{
+            text-align: center;
+        }
+
     </style>
 </head>
-<body>
+<body style=
+    "background-image: url(./image/backgroun3.webp); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover">
     <header>
         <nav>
             <div class="container">
-                <div>
-                    <img src="myImage.jpeg" alt="myImage" id="myImage" align="center"> ŞERİFE ŞEVVAL MERT
+                <div class="imageConteiner">
+                    <img src="./image/myImage.jpeg" alt="myImage" id="myImage"> 
+                    <span><b>ŞERİFE ŞEVVAL MERT</b></span>
                 </div>
-                <div style="text-align: end; margin-top: 20px;">
-                    <a href="personallWebsite.html" style="margin-right: 20px;">HOME</a>
-                    <a href="projects.html" style="margin-right: 20px;">PROJECTS</a>
-                    <a href="contact.html" style="margin-right: 20px;">CONTACT</a>
+                <div style="text-align: end; margin-top: 35px;">
+                    <a href="personalWebsite.html" style="margin-right: 20px; color: black;"><b>HOME</b></a>
+                    <a href="about.html" style="margin-right: 20px; color: black;"><b>ABOUT ME</b></a>
+                    <a href="projects.html" style="margin-right: 20px; color: black;"><b>PROJECTS<b></a>
                 </div>
             </div>
         </nav>
     </header>
+    <br><br>
+    <section>
+        <div class="information">
+            <h1 style="font-size: 40px; font-family: Arial, Helvetica, sans-serif;">HEY, I'M ŞERİFE ŞEVVAL MERT</h1>
+            <p style="width: 700px; margin: auto; font-size: 20px; font-family: 'Times New Roman', Times, serif;">I am a Computer Engineering student and I work in the field of software development, especially on Android and web technologies.
+            While I focus on Kotlin and XML-based interface designs in mobile application development am currently working on HTML and CSS on the web side.
+            </p>
+        </div>
+    </section>
+    <footer style="text-align: center; margin-top: 450px;">
+        <span>Created by Şerife Şevval Mert</span>
+    </footer>
 </body>
+
 </html>
